@@ -120,8 +120,8 @@ def SEARCH(x, item):
 
 lst = [2,45,5,7,44,6,11,9,3,50]
 a = 77 # eval(input("Enter what you want to search??? : "))
-flag = SEARCH(lst, a)
-if (flag):
+boolean = SEARCH(lst, a)
+if (boolean):
     print("Data Found")
 else:
     print("No Data Found")
