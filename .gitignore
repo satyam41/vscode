@@ -1,6 +1,7 @@
 file
 file1
-Student.csv
+*Student.csv
 handle
-sai
-student
+*sai
+*student
+*.vscode/
