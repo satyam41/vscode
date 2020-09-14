@@ -30,12 +30,12 @@
 # lst = []
 # name = 
 
-from tkinter import *
-root = Tk()
-root.geometry("700x500")
-root.title("GAME")
-def game():
-    print("When you play games")
-Label(root, text="Hi I am Your Assistant").pack()
-# Label(root)
-root.mainloop()
+# from tkinter import *
+# root = Tk()
+# root.geometry("700x500")
+# root.title("GAME")
+# def game():
+#     print("When you play games")
+# Label(root, text="Hi I am Your Assistant").pack()
+# # Label(root)
+# root.mainloop()
