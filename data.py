@@ -7,15 +7,17 @@ import matplotlib.pyplot as plt
 import numpy as np
 # Line graph, Bar graph, Horizontal bar graph and Pie graph.
 
-city = ['Jabalpur', 'Mumbai', 'Patna', 'Allahabad']
+# city = ['Jabalpur', 'Mumbai', 'Patna', 'Allahabad']
 no = [23,12,11,44]
 on = [32,21,55,40]
-plt.plot(city,no,on, "r", linewidth=3, linestyle=":", marker="*")
+x = np.arange(len(no))
+# plt.plot(city,no,on, "r", linewidth=3, linestyle=":", marker="*")
 plt.xlabel('City')
 plt.ylabel('Number')
-plt.bar(city, no, color=['r', 'b', 'g', 'k'], width=0.5, bottom=None, align='center')
-plt.barh(city,no, color=['r', 'b', 'g', 'k'])
-plt.pie(no, labels=city, autopct="%1.1f%%")
+plt.bar(no,on, color=['m', 'b', 'g', 'k'], width=5, bottom=None, align='center')
+# plt.bar(no,on, color=['r', 'b', 'g', 'k'])
+plt.bar(x+35, no, color='k', width=2)
+# plt.pie(no, labels=city, autopct="%1.1f%%")
 plt.show()
 
 for i in range(1,11):
