@@ -45,3 +45,9 @@ a = [2,45,642,3]
 b = [2,3,2,3]
 plt.plot(a,b, "--", marker="*")
 plt.show()"""
+
+# Histrogram Graph
+
+import matplotlib.pyplot as plt
+plt.hist([5,15,25,45,35,55], bins=[0,10,20,30,40,50,60], weights=[20,10,45,33,6,8], edgecolor='k', histtype='step')
+plt.show()
