@@ -2,7 +2,7 @@ from tkinter import *
 import tkinter.messagebox as msg
 
 root = Tk()
-root.geometry("700x300")
+root.geometry("700x400")
 root.title("Games")
 
 def lol():
@@ -10,7 +10,7 @@ def lol():
 
 def click():
     root1 = Tk()
-    root1.geometry("700x300")
+    root1.geometry("650x300")
     root1.title("Need For Speed Most Wanted")
     
     Label(root1, text="Welcome to NEED FOR SPEED MOST WANTED", font="algerian 20 bold").pack()
