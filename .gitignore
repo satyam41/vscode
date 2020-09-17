@@ -5,3 +5,4 @@ handle
 *sai
 *student
 *.vscode/
+*__pycache__/
