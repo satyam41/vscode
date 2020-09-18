@@ -21,7 +21,7 @@ def means : defination of function.
 () : In paranthese write parameters.
 [] : optional"""
 
-# Defination of first function 
+"""# Defination of first function 
 
 def func_1():
     print(f"Hello {name}")
@@ -57,4 +57,24 @@ def powe(x,y):
 # ------Main Program------
 a = 10 
 b = 20
-print("The sum is", add(a,b))
+print("The sum is", add(a,b))"""
+
+# Defination of SEARCH function.
+
+def SEARCH(x,item):
+    boolean = False
+    for i in x:
+        if (i==item):
+            boolean = True
+            break
+        else:
+            boolean = False
+    return boolean
+# ------Main Program------
+lst = [1,5,3,8,55,8]
+a = 5
+flag = SEARCH(lst,a)
+if flag:
+    print(f"{a} in list....Data Found")
+else:
+    print(f"{a} not in list....No Data Found")
