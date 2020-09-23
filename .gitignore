@@ -5,9 +5,5 @@ handle
 *sai
 *student
 *.vscode/
-function
-*__pycache__/
-=======
 *__pycache__/
 Pyhon3/
-master
