@@ -7,3 +7,5 @@ handle
 *.vscode/
 *__pycache__/
 Pyhon3/
+*__pycache__/
+
