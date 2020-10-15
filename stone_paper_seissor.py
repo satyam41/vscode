@@ -76,34 +76,35 @@ def update_scores(user_input):
             print("\nComputer Score : ",comp_score," Player Score : ",player_score)
 
 
+if __name__ == "__main__":
 
 
-# 1. Create a list: ['0', '1', '2'] and store it in the variable called valid_entries, i.e, valid_entries = ['0', '1', '2']
-valid_entries = ['0','1','2']
-# 2. Create an infinite while loop. Inside the loop, create a variable called user_input to store the input taken by the player.
-while True:
-    pred = predict()
-  # 3. Use the input() function to take input from a player. 
-  # Inside the input() function, write the Enter 0 for ROCK, 1 for PAPER and 2 for SCISSORS: statement to show it as a message to a player.
-    user_input = input("Enter 0 for ROCK, 1 for PAPER and 2 for SCISSORS : ")
-  # 4. Write another while loop to check whether the input provided by a player exists in the valid_entries list or not.
-    while user_input not in valid_entries:
-    # 5. If the input provided by a player does not exist in the valid_entries list, then print Invalid Input! message. 
-    # In the next line, rewrite the user_input = input("Enter 0 for ROCK, 1 for PAPER and 2 for SCISSORS: ") statement.
-        print("Invalid Input!!!!!")
-        user_input = input("Enter 0 for ROCK, 1 for PAPER and 2 for SCISSORS: ")
-  # 6. Now, outside the inner while loop, convert the user_input value to an integer value using the int() function. 
-    user_input = int(user_input)
-  # 7. Call the update_scores() function with the user_input as an input to update the scores of the computer and the player.
-    update_scores(user_input)
-  # 8. Call the update_counts() function with the user_input as an input to update the counts of the inputs provided by the player.
-    update_count(user_input)
-  # 9. Write an if statement to check if the score is 10 for any of the player. 
-  # If the comp_score == 10, then print the Computer Won! message and break the loop. 
-  # Else if the player_score == 10, then print the You won! message and break the loop.
-    if comp_score == 10:
-        print("Computer Won!")
-        break
-    elif player_score == 10:
-        print("You Won!")
-        break
+    # 1. Create a list: ['0', '1', '2'] and store it in the variable called valid_entries, i.e, valid_entries = ['0', '1', '2']
+    valid_entries = ['0','1','2']
+    # 2. Create an infinite while loop. Inside the loop, create a variable called user_input to store the input taken by the player.
+    while True:
+        pred = predict()
+    # 3. Use the input() function to take input from a player. 
+    # Inside the input() function, write the Enter 0 for ROCK, 1 for PAPER and 2 for SCISSORS: statement to show it as a message to a player.
+        user_input = input("Enter 0 for ROCK, 1 for PAPER and 2 for SCISSORS : ")
+    # 4. Write another while loop to check whether the input provided by a player exists in the valid_entries list or not.
+        while user_input not in valid_entries:
+        # 5. If the input provided by a player does not exist in the valid_entries list, then print Invalid Input! message. 
+        # In the next line, rewrite the user_input = input("Enter 0 for ROCK, 1 for PAPER and 2 for SCISSORS: ") statement.
+            print("Invalid Input!!!!!")
+            user_input = input("Enter 0 for ROCK, 1 for PAPER and 2 for SCISSORS: ")
+    # 6. Now, outside the inner while loop, convert the user_input value to an integer value using the int() function. 
+        user_input = int(user_input)
+    # 7. Call the update_scores() function with the user_input as an input to update the scores of the computer and the player.
+        update_scores(user_input)
+    # 8. Call the update_counts() function with the user_input as an input to update the counts of the inputs provided by the player.
+        update_count(user_input)
+    # 9. Write an if statement to check if the score is 10 for any of the player. 
+    # If the comp_score == 10, then print the Computer Won! message and break the loop. 
+    # Else if the player_score == 10, then print the You won! message and break the loop.
+        if comp_score == 10:
+            print("Computer Won!")
+            break
+        elif player_score == 10:
+            print("You Won!")
+            break
