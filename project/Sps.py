@@ -1,14 +1,16 @@
-from tkinter import *
-import tkinter.messagebox as tmsg
 import random
+import tkinter.messagebox as tmsg
+from tkinter import *
+
 
 def sps():
     sps = Tk()
     sps.geometry("700x500")
     sps.title("Stone Paper Seiccor")
-
     try:
         
+        player_score = 0
+        comp_score = 0
 
         count_rock = count_paper = count_scissors = 0
 
@@ -38,8 +40,7 @@ def sps():
                 pred = random.randint(0,2)
             return pred
         
-        player_score = 0
-        comp_score = 0
+        
 
         # Update Score Function
 

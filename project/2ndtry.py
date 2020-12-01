@@ -6,3 +6,6 @@ winsound.PlaySound("SystemExit", winsound.SND_LOOP)
 # "*" probably isn't the registered name of any sound).
 winsound.PlaySound("*", winsound.SND_LOOP)
 
+
+l = [[4,5,4,4],[1,2,3,4],[4,2,5,1]]
+print(l[1])
