@@ -5,8 +5,17 @@ handle
 *sai
 *student
 *.vscode/
+<<<<<<< HEAD
 *__pycache__/
 Pyhon3/
 *__pycache__/
 project/
 Monthly Test/*
+=======
+function
+*__pycache__/
+=======
+*__pycache__/
+Pyhon3/
+master
+>>>>>>> 52e3a35d68fc663da8e2ff8df95a2eb2dbeb1cc5
