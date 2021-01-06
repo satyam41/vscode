@@ -22,4 +22,4 @@ for i in range(2):
 print("Program Over!!!")
 
 
-Question of the day: Print the table."""
+Question of the day: Print the multiplication table of any number."""
