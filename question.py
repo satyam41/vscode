@@ -14,7 +14,7 @@ def duplicate(string):
                 new_str += string[i]
     new_chars.append("".join(new_str))
     return new_chars
-string = 'Apple'
+string = input("Enter any word: ")
 same = duplicate(string)
 print("Older String:",string)
 print("The new string:",same[0])
