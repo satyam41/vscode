@@ -1,7 +1,6 @@
 # if, elif and else statement.
 """
 age = int(input("Enter your age : "))
-age = 15
 if age >= 10 and age < 18:
     print("You drive a cycle.")
 elif age < 10:
