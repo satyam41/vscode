@@ -21,3 +21,4 @@ print("Return the number to your friend....")
 time.sleep(10)
 
 print("The remaining number is: ", computerNumber/2)
+time.sleep(3)
