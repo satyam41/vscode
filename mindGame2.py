@@ -1,7 +1,7 @@
 import random
 import time
 
-print("Choose the number in your mind........")
+print("Choose the number in your mind between 1-100........")
 time.sleep(3)
 
 print("Take the same number from your friend....")
