@@ -1,6 +1,13 @@
 import random
 import time
 
+nameOfPlayer = input("Enter your name before play this game: ")
+file = open("RecordsOfPlayer.txt", "a")
+data = file.write(nameOfPlayer+"\n")
+file.close()
+print("Your Game will start while.....")
+time.sleep(3)
+
 print("Choose the number in your mind between 1-100........")
 time.sleep(3)
 
