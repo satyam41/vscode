@@ -30,7 +30,41 @@ for i in range(6):
 
 # while loop.
 
-i = 1
-while i <= 5:
-    print(i)
-    i += 1
+# i = 1
+# while i <= 5:
+#     print(i)
+#     i += 1
+
+# 
+# print(1)
+# print(2)
+# print(3)
+# print(4)
+# print(5)
+
+"""
+for <variable> range(n, n-1):
+    <statement>
+    .
+    .
+"""
+
+# for i in range(1,1001):
+#     print(i)
+
+"""
+while <condition>:
+    <statement>
+    .
+    .
+"""
+
+# a = 0
+# while a<=50:
+#     print(a)
+#     a+=2
+
+
+for i in range(1,11):
+    print("Square of number", i, end = ' ')
+    print("is", i**2)

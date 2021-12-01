@@ -13,10 +13,15 @@ Tokens: keywords, identifiers, operators, puncutars, literals.
                 Correct Variables : num1, user_input, num_file.
                 Wrong Variables : 1num, user input, num!file.
 """
-a = 10
-b = 20
-c = a + b
-print(c)
+# a = 10
+# b = 20
+# c = a + b
+# 9a = 12
+# d = "Adit"
+# e = 'Adit'
+
+# print(a<9)
+# print(c)
 
 """
 3.operators: i.arithmetic operators (+,-,*,/,//,**,%)
@@ -50,3 +55,7 @@ comments: in python "#" denotes comments. comments are single or multiline comme
     """ Multi 
     Line
     Comments"""
+
+
+print(bool(0))   # this is a boolean value.
+print(bool(1))
