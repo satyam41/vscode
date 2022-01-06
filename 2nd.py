@@ -25,7 +25,8 @@ print("Sum of c is ",c)"""
 
 # b = '12344/**-dfasjgfu'
 # print(b)
-# print(type(b))
+# type() function tells us type of any variable. like string, list, int, float, array etc.
+# print(type(b)) 
 
 # a = eval(input("Enter any number: "))
 # b = eval(input("Enter any number: "))
