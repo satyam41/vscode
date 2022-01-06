@@ -1,11 +1,20 @@
-# There are various types of loop are there for loop, while loop.
+# There are two types of loop in Python: for loop and while loop.
 
 # for loop.
+"""
+Uses of for loop: use for terminate the program at given range.
+Range function in for loop is take atleast one aregument.
+range(n) it gives output n-1.
+for example: 
+    if you give n = 10, the code is terminate n-1 = 10 - 1 = 9 times.
+"""
 
-"""a = 11 
+
+"""
 for i in range(11):
     print(i)
 """
+# Output
 0
 1
 1
@@ -13,6 +22,8 @@ for i in range(11):
 3
 5
 8
+9
+10
 
 """first = 0
 second = 1
