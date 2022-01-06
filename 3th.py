@@ -3,11 +3,29 @@
 # for loop.
 """
 Uses of for loop: use for terminate the program at given range.
-Range function in for loop is take atleast one aregument.
+Range function in for loop is take atleast one argument.
 range(n) it gives output n-1.
+
 for example: 
-    if you give n = 10, the code is terminate n-1 = 10 - 1 = 9 times.
-"""
+    if you give n = 10, the code is terminate n-1 = 10 - 1 = 9 times."""
+
+# if you wants to give more than one argument in range function you can give to the range function.
+# for example:
+for i in range(1,11): # here range(1,11) means range(start, stop).
+        # this mean the conting is start with 1.
+        print(i)
+    
+# Output
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
 
 
 """
