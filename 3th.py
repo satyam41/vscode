@@ -6,6 +6,14 @@ Uses of for loop: use for terminate the program at given range.
 Range function in for loop is take atleast one argument.
 range(n) it gives output n-1.
 
+Syntax of for loop:
+
+for <variable> range(n, n-1):
+    <statement>
+    .
+    .
+
+
 for example: 
     if you give n = 10, the code is terminate n-1 = 10 - 1 = 9 times."""
 
@@ -55,32 +63,24 @@ for i in range(6):
 
 """for i in range(1,11):
     print("Square of number", i, end = ' ')
-    print("is", i**2)"""
+    print("is", i**2)
+"""
 
 # while loop.
 
-# i = 1
-# while i <= 5:
-#     print(i)
-#     i += 1
-
-# 
-# print(1)
-# print(2)
-# print(3)
-# print(4)
-# print(5)
-
 """
-for <variable> range(n, n-1):
-    <statement>
-    .
-    .
+Uses of while loop: same as for loop but little bit difference in while loop.
+While loop is also knows as Infinite loop.
 """
+# let you have to print the conting from 1 to 1000. You start print like this:
+    # print(1)
+    # print(2)
+    # print(3)
+    # print(4)
+    # print(5)
+# but this is not the correct way and you also tired to do same work again and again. And you obey the rule of any programming language DRY(Do Not Repeat Yourself). In this case you should use while loop for do this operation. 
 
-# for i in range(1,1001):
-#     print(i)
-
+# Syntax of while loop:
 """
 while <condition>:
     <statement>
@@ -88,12 +88,15 @@ while <condition>:
     .
 """
 
+# i = 1
+# while i <= 5:
+#     print(i)
+#     i += 1
+
+# for i in range(1,1001):
+#     print(i)
+
 # a = 0
 # while a<=50:
 #     print(a)
 #     a+=2
-
-
-for i in range(1,11):
-    print("Square of number", i, end = ' ')
-    print("is", i**2)
