@@ -7,4 +7,4 @@ def Vowel(userInput):
         return False
 
 
-print(Vowel('u'))
+print(Vowel('s'))
