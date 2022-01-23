@@ -14,3 +14,11 @@ print(tup.index(3))
 
 print(tup.count(2))
 """
+
+# Difference between List and Tuple
+# List is mutable and tuple is immutable.
+# list is written as [] and tuples is written in ()
+tuple_name = ("Satyam", "Anubhav", "Anuj", "Sanmati")
+list_name = ["Satyam", "Anubhav", "Anuj", "Sanmati"]
+print(tuple_name.__sizeof__())
+print(list_name.__sizeof__())
