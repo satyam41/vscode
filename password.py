@@ -14,5 +14,3 @@ def CheckPassword(password):
 userInput = input("Enter your password: ")
 userInput = CheckPassword(userInput)
 print(userInput)
-
-
